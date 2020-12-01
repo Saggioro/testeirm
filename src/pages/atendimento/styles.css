@@ -1,0 +1,51 @@
+.ajusteCard{
+    margin-top: 20px;
+}
+.btn-cad{
+    padding: .2rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    height: 39px;
+    margin: 31px 20px 0 60px;
+}
+.ajuste-icons-atend{
+    display: flex;
+    justify-content: center;
+}
+.input-row{
+    display: flex;
+    justify-content: center;
+}
+.use-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 180px;
+    border-radius: 20%;
+    border: 1px solid #ebecee;
+margin: 0 35px 20px 0;
+    background: #f9fafc;
+}
+.use-card .use-img{
+    
+    font-size: 100px;
+    color: #babbbd;
+
+}
+.style-input{
+    background: none !important;
+}
+.jack-grup{
+    height: 50px;
+    margin-bottom: 0;
+    
+}
+.jack-label{
+    margin-bottom: 0;
+}
+.margininferios{
+    margin-bottom: 40px;
+
+}

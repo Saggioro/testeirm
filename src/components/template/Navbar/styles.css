@@ -1,0 +1,27 @@
+.nameNavbar {
+  color: white !important;
+  display: flex;
+}
+
+.nameNavbar div {
+  margin: 0 20px;
+}
+
+.nameNavbar a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.nameNavbar a:hover {
+  color: rgb(63, 62, 62) !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 5);
+  font-size: large;
+  margin-right: 20px;
+}
+.navbar{
+  box-shadow: 5px 5px 18px rgb(150, 148, 148);
+  margin-bottom: 60px !important;
+
+}

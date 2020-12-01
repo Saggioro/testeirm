@@ -1,0 +1,19 @@
+.ajusteCard {
+  margin-top: 20px;
+}
+.btn-cad {
+  padding: 0.2rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  height: 39px;
+  margin: 31px 20px 0 60px;
+}
+.ajuste-icons-atend {
+  display: flex;
+  justify-content: center;
+}
+.input-row {
+  display: flex;
+  justify-content: center;
+}
