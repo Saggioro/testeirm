@@ -92,10 +92,10 @@ export default function Atendimento() {
     });
     
 
-      //setAtendimentos(newAtendimentos);
+      setAtendimentos(newAtendimentos);
 
 
-  }, [pacientes, procedimentos, profissionais, atendimentos]);
+  }, [pacientes, procedimentos, profissionais]);
 
   useEffect(() => {
     api.get("/atendimentos").then((response) => {
