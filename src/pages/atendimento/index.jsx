@@ -63,7 +63,7 @@ export default function Atendimento() {
 
   useEffect(() => {
     let newAtendimentos = [...atendimentos];
-    newAtendimentos.forEach((atendimento) => {
+    newAtendimentos.map((atendimento) => {
       const findPaciente = pacientes.find(
         (paciente) => Number(paciente.id) === Number(atendimento.paciente_id)
       );
