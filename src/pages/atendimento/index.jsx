@@ -63,7 +63,7 @@ export default function Atendimento() {
 
   useEffect(() => {
     let newAtendimentos = [...atendimentos];
-    newAtendimentos.map((atendimento) => {
+    newAtendimentos.forEach((atendimento) => {
       const findPaciente = pacientes.find(
         (paciente) => Number(paciente.id) === Number(atendimento.paciente_id)
       );
@@ -93,7 +93,7 @@ export default function Atendimento() {
     
 
       setAtendimentos(newAtendimentos);
-
+      
 
   }, [pacientes, procedimentos, profissionais]);
 
@@ -112,6 +112,7 @@ export default function Atendimento() {
       
     });
   }, []);
+
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -356,7 +357,7 @@ export default function Atendimento() {
                 <th>Profissional</th>
                 <th>Procedimento</th>
                 <th>Valor</th>
-                <th>Ação</th>
+                {/* <th>Ação</th> */}
               </tr>
             </thead>
             <tbody>
@@ -372,7 +373,7 @@ export default function Atendimento() {
                       <td>{atendimento.profissional}</td>
                       <td>{atendimento.procedimento}</td>
                       <td>{atendimento.valor}</td>
-                      <td>icon</td>
+                      {/* <td>icon</td> */}
                     </tr>
                   );
                 })
@@ -388,7 +389,7 @@ export default function Atendimento() {
                       <td>{atendimento.profissional}</td>
                       <td>{atendimento.procedimento}</td>
                       <td>{atendimento.valor}</td>
-                      <td>icon</td>
+                      {/* <td>icon</td> */}
                     </tr>
                   );
                 })
